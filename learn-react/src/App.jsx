@@ -4,17 +4,19 @@ import MainContent from "./MainContent";
 import Footer from "./Footer";
 import WelcomeMessage from "./WelcomeMessage";
 import JSXRules from "./JSXRules";
+import Maths from "./Maths";
 function App(){
 
   return(
     <>
-    <JSXRules/>
-
-
-
-
-
+    <Maths/>
     
+
+
+
+
+
+
     {/* <WelcomeMessage/> */}
 
     {/* <Header/>
