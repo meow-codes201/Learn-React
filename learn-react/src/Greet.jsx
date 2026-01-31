@@ -1,7 +1,11 @@
 function Greet(){
+    let date = new Date();
     return(
         <>
-        Hello There!
+        <h1>Hello There!
+        </h1>
+        <p>Date : {date.toLocaleDateString()}</p>
+        
         
         </>
     );

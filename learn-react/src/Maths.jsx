@@ -1,8 +1,12 @@
 function Maths(){
     const name = "Arithmetc operations"
     const operators=['Addition','Subtraction','Multiplication','Division','Modulus'];
+    const numbers = [1,2,3,4,5,6];
     return(
     <>
+    {numbers.map(number => (
+       <span key={number}>{number} </span>
+    ))}
     <h1>{name}</h1>
     
     <p>{operators[0]} : 2+2 = {2+2}</p>
