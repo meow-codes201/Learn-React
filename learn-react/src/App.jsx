@@ -1,9 +1,27 @@
+import Greet from "./Greet";
+import Header from "./Header";
+import MainContent from "./MainContent";
+import Footer from "./Footer";
+import WelcomeMessage from "./WelcomeMessage";
+import JSXRules from "./JSXRules";
 function App(){
 
   return(
     <>
-    <h1>HI!</h1>
+    <JSXRules/>
 
+
+
+
+
+    
+    {/* <WelcomeMessage/> */}
+
+    {/* <Header/>
+    <MainContent/>
+    <Footer/>
+     */}
+    
     </>
   );
 
